@@ -314,7 +314,7 @@ Invalid credentials for username: test_agent_007
 ## Testing with MongoDB Compass
 
 ### View Registered User
-1. Connect to: `mongodb+srv://socketproject.dik1bhi.mongodb.net`
+1. Connect to: `your_mongodb_connection_string`
 2. Select database: `echonet-protocol`
 3. Select collection: `users`
 4. Find document with username: `test_agent_007`

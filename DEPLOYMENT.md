@@ -48,7 +48,7 @@ Click **"Advanced"** → **"Environment Variables"** and add:
 ```
 NODE_ENV=production
 PORT=5000
-MONGODB_URI=mongodb+srv://pranesh25joshi_db_user:nXKG7O3T7VzIyMx2@socketproject.dik1bhi.mongodb.net/echonet-protocol?retryWrites=true&w=majority&appName=socketproject
+MONGODB_URI=your_mongodb_connection_string_here
 CLIENT_URL=https://your-app-name.vercel.app
 JWT_SECRET=generate_a_strong_random_secret_here
 ```
