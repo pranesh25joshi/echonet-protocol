@@ -35,3 +35,18 @@ Thumbs.db
 *.pem
 coverage/
 .cache/
+
+# Documentation (keep locally, don't push to GitHub)
+AUTHENTICATION.md
+DEPLOYMENT.md
+FEATURES.md
+FIX_ACCESS_BLOCKED.md
+NUKE_ANIMATION.md
+PASSWORD_AUTH_QUICKSTART.md
+PRE_DEPLOYMENT_CHECKLIST.md
+RUNNING.md
+SETUP.md
+START.md
+TESTING_AUTH.md
+USER_STATUS_LOGOUT.md
+.env.example
