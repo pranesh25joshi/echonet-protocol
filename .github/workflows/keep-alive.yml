@@ -1,0 +1,12 @@
+name: Keep Backend Alive
+
+on:
+  schedule:
+    - cron: '*/9 * * * *'
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Backend
+        run: curl https://echonet-protocol-backend.onrender.com/api/health
